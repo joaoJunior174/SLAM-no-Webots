@@ -1,0 +1,133 @@
+#VRML_SIM R2018a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.05007387990236297 -0.8636120016144542 -0.5016641478309961 2.9696139868475457
+  position -5.298180130358888 21.792244847927773 -14.16207821407515
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+RectangleArena {
+  floorSize 15 15
+  floorTileSize 2 2
+  wallHeight 4.3
+  wallTextureUrl [
+    "textures/parquetry.jpg"
+  ]
+  wallTileSize 3 3
+}
+Bed {
+  translation 6.9499999999999975 0 -3.6100000000000088
+}
+Television {
+  translation 7.439999999999979 2.4299999999999984 1.7837015683545104e-8
+  rotation 0 0.9999999999999999 0 4.712388966
+}
+PottedTree {
+  translation -6.019999999999989 0 -6.979999999999997
+}
+Sofa {
+  translation 4.089999999999999 0 0.6200000000000002
+}
+Oven {
+  translation 2.8800000125146807 0.34 -1.8899999585720932
+  rotation 0 0.9999999999999999 0 4.712388966
+}
+Fridge {
+  translation -1.0200000000000005 0 0
+}
+Wall {
+  translation 0.949999999856164 0 3.529999925439362
+  rotation 0 1 0 6.283185307179586
+  size 5 4.2 0.2
+  wallTextureUrl [
+    "textures/old_brick_wall.jpg"
+  ]
+  wallTileSize 3 3
+}
+Cabinet {
+  translation 4.969999999999993 0 -7.479999999999987
+}
+PortraitPainting {
+  translation 6.159999999999992 2.285 -2.4099999999999993
+}
+Wall {
+  translation 2.570000042530746 0 -6.4600000357219916
+  rotation 0 1 0 1.5707963028204126
+  name "wall(5)"
+  size 2 4.2 0.2
+  wallTextureUrl [
+    "textures/old_brick_wall.jpg"
+  ]
+  wallTileSize 3 3
+}
+Wall {
+  translation 3.4800000011987353 0 0.49999993757045114
+  rotation 0 -1 0 4.712388985179587
+  name "wall(4)"
+  size 6 4.2 0.2
+  wallTextureUrl [
+    "textures/gray_brick_wall.jpg"
+  ]
+  wallTileSize 3 3
+}
+Wall {
+  translation -1.5099999905540469 0 -1.9700000316463149
+  rotation 0 1 0 1.5707963220000003
+  name "wall(2)"
+  size 7 4.2 0.2
+  wallTextureUrl [
+    "textures/old_brick_wall.jpg"
+  ]
+  wallTileSize 3 3
+}
+Wall {
+  translation 6.839999965284929 0.07999999999999993 3.5800000224880733
+  rotation 0 1 0 3.141592644
+  name "wall(1)"
+  size 1.4 4.1000000000000005 0.2
+  wallTextureUrl [
+    "textures/old_brick_wall.jpg"
+  ]
+  wallTileSize 3 3
+}
+Wall {
+  translation 2.9300000242621764 0.07999999999999993 -2.570000015008027
+  rotation 0 1 0 3.141592644
+  name "wall(3)"
+  size 8.9 4.1000000000000005 0.2
+  wallTextureUrl [
+    "textures/gray_brick_wall.jpg"
+  ]
+  wallTileSize 3 3
+}
+Pioneer3at {
+  hidden position_0_0 1508.3731119226848
+  hidden position_0_1 2448.49601919156
+  hidden position_0_2 1508.3796596887275
+  hidden position_0_3 2448.503388415454
+  hidden linearVelocity_0 -0.0390133472105249 -0.014682981548556122 0.15844031709921302
+  hidden angularVelocity_0 -0.017394418789700467 0.7177149668118634 -0.22448057422452586
+  hidden rotation_1 -1 0 0 0.4086381995840028
+  hidden linearVelocity_1 -0.12044751541990383 0.0334325981631498 0.3203023009655876
+  hidden angularVelocity_1 1.6187613142814832 0.7205410558488241 2.2901400305633857
+  hidden rotation_2 1 0 0 1.9462506084785178
+  hidden linearVelocity_2 0.11754148242024577 -0.007984270480801858 0.1663871096698349
+  hidden angularVelocity_2 -1.6266406253263286 0.695784772199797 -2.7562178462503115
+  hidden rotation_3 -1 0 0 0.41518596562678783
+  hidden linearVelocity_3 -0.2235472618845109 -0.018291885516877694 0.1601626238487776
+  hidden angularVelocity_3 1.6187617211919105 0.7205745532011198 2.2900777241497354
+  hidden rotation_4 0.9999999999999999 0 0 1.938881384584643
+  hidden linearVelocity_4 0.014497351518993742 -0.06092671692562375 0.007190434608286488
+  hidden angularVelocity_4 -1.6266920529425464 0.6957108088375215 -2.756292371673023
+  translation -2.916897812652774 0.1074801117713966 5.539989682595436
+  rotation -0.014007466933439822 0.999880726965869 -0.006505590850465393 -0.9768962311010769
+  controller "SLAM"
+}
